@@ -1,0 +1,27 @@
+body{
+    background-color:black;
+
+}
+
+.navbar{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: -10px;
+    border-radius: 10px;
+
+}
+
+.firstHead{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+
+}
+.firstPara{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+

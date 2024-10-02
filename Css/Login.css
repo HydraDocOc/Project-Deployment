@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(to right ,white, teal);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background:  rgba(178, 223, 220, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 700px;
+}
+
+.form-section {
+    padding: 40px;
+    width: 50%;
+}
+
+.welcome-section {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #71a3c1;
+    color: #fff;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    background-color: black;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.remember-me input {
+    margin-right: -100px;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.welcome-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.sign-up-button {
+    background-color: #71a3c1;
+    color: bl;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease ;
+}
+
+.sign-up-button:hover {
+    background-color: #eee;
+}

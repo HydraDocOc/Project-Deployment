@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+}
+.top-chefs-container {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.chef {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.chef img{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+footer {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.logo{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.head{
+    font-size: xx-large;
+    color: beige;
+    background-color: #333
+}

@@ -1,0 +1,99 @@
+
+body{
+    background-image: url("../Images/cover\ page\ bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+  }
+
+  .navbar{
+      background-color: black;
+      margin-bottom: 50px;
+      height: 60px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-radius: 10px ;
+      
+
+  }
+
+  .navbar li{
+      float: right;
+      list-style: none;
+      color: white;
+      padding: 20px;
+    }
+
+  .navbar ul{
+      overflow: auto;
+
+  }
+
+  .navbar li a{
+      color: white;
+      text-decoration: none;
+
+     
+  }
+
+  .navbar ul li{
+      margin-bottom: 30px;
+  }
+
+ .navbar li a:hover{
+      color: yellow;
+
+  }
+
+  #Firsthead{
+      color: black;
+      font-size: 40px;
+      margin-left: 34px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 34px;
+  
+
+  }
+
+  #Firstheadd{
+      color: black;
+      font-size: 40px;
+      margin-left: 34px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-top: -90px;
+      padding: 34px;
+
+
+
+  }
+
+  #FirstPara{
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 34px;
+      margin-top: -70px;
+      margin-left: 40px;
+      font-size: 16px;
+
+  }
+
+  .btn{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: black;
+      font-size: 15px;
+      cursor: pointer;
+      color: azure;
+      margin-left: 190px;
+      border-radius: 5px;
+  }
+
+  .btn a{
+      color: white;
+      text-decoration: none;
+  }
+
+  .btn a:hover{
+      color: yellow;
+  }
